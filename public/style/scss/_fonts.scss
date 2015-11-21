@@ -1,0 +1,200 @@
+/**
+* FONTS
+* ------------------------------------------------------------------
+* Fords Folly | Pacifico | Sansa Pro | YWFT Signature | Sundio Icons
+*
+*/
+
+/* Fords Folly */
+
+@font-face {
+    font-family: 'Fords Folly';
+    font-style: normal;
+    font-weight: 400;
+    src: url('#{$path-fonts}fords-folly.eot');
+    src: url('#{$path-fonts}fords-folly.eot?#iefix') format('embedded-opentype'), url('#{$path-fonts}fords-folly.woff2') format('woff2'), url('#{$path-fonts}fords-folly.woff') format('woff'), url('#{$path-fonts}fords-folly.ttf') format('truetype'), url('#{$path-fonts}fords-folly.svg#fordsfolly') format('svg'); }
+
+@font-face {
+    font-family: 'Fords Folly';
+    font-style: normal;
+    font-weight: 700;
+    src: url('#{$path-fonts}fords-folly.eot');
+    src: url('#{$path-fonts}fords-folly.eot?#iefix') format('embedded-opentype'), url('#{$path-fonts}fords-folly.woff2') format('woff2'), url('#{$path-fonts}fords-folly.woff') format('woff'), url('#{$path-fonts}fords-folly.ttf') format('truetype'), url('#{$path-fonts}fords-folly.svg#fords-folly') format('svg'); }
+
+.font-fords-folly {
+    font-family: 'Fords Folly', Verdana, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+
+/* Pacifico */
+
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: url('#{$path-fonts}pacifico.eot');
+    src: url('#{$path-fonts}pacifico.eot?#iefix') format('embedded-opentype'), url('#{$path-fonts}pacifico.woff') format('woff'), url('#{$path-fonts}pacifico.ttf') format('truetype'), url('#{$path-fonts}pacifico.svg#pacifico') format('svg'); }
+
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 700;
+    src: url('#{$path-fonts}pacifico.eot');
+    src: url('#{$path-fonts}pacifico.eot?#iefix') format('embedded-opentype'), url('#{$path-fonts}pacifico.woff') format('woff'), url('#{$path-fonts}pacifico.ttf') format('truetype'), url('#{$path-fonts}pacifico.svg#pacifico') format('svg'); }
+
+.font-pacifico {
+    font-family: 'Pacifico', Verdana, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+/* Sansa Pro */
+
+@font-face {
+    font-family: 'Sansa Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('#{$path-fonts}sansapro-semibold.eot');
+    src: url('#{$path-fonts}sansapro-semibold.eot?#iefix') format('embedded-opentype'), url('#{$path-fonts}sansapro-semibold.woff') format('woff'), url('#{$path-fonts}sansapro-semibold.ttf') format('truetype'), url('#{$path-fonts}sansapro-semibold.svg#sansapro-semibold') format('svg'); }
+
+.font-sansa-pro {
+    font-family: 'Sansa Pro', Verdana, Arial, sans-serif; }
+
+@font-face {
+    font-family: 'Sansa Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url('#{$path-fonts}sansa-pro-bold.eot');
+    src: url('#{$path-fonts}sansa-pro-bold.eot?#iefix') format('embedded-opentype'), url('#{$path-fonts}sansa-pro-bold.woff') format('woff'), url('#{$path-fonts}sansa-pro-bold.ttf') format('truetype'), url('#{$path-fonts}sansa-pro-bold.svg#sansa-pro-bold') format('svg'); }
+
+.font-sansa-pro-bold {
+    font-family: 'Sansa Pro', Verdana, Arial, sans-serif;
+    font-weight: 700; }
+
+/* YWFT Signature */
+
+@font-face {
+    font-family: 'YWFT Signature';
+    font-style: normal;
+    font-weight: 400;
+    src: url('#{$path-fonts}ywft-signature.eot');
+    src: url('#{$path-fonts}ywft-signature.eot?#iefix') format('embedded-opentype'), url('#{$path-fonts}ywft-signature.woff') format('woff'), url('#{$path-fonts}ywft-signature.ttf') format('truetype'), url('#{$path-fonts}ywft-signature.svg#ywft_signature_regular') format('svg'); }
+
+@font-face {
+    font-family: 'YWFT Signature';
+    font-style: normal;
+    font-weight: 700;
+    src: url('#{$path-fonts}ywft-signature.eot');
+    src: url('#{$path-fonts}ywft-signature.eot?#iefix') format('embedded-opentype'), url('#{$path-fonts}ywft-signature.woff') format('woff'), url('#{$path-fonts}ywft-signature.ttf') format('truetype'), url('#{$path-fonts}ywft-signature.svg#ywft_signature_regular') format('svg'); }
+
+.font-ywft-signature {
+    font-family: 'YWFT Signature', Verdana, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+
+//
+// Sundio Icons
+//
+// Copyright 2015 Sundio Group Web Development
+//
+// --------------------------------------------------
+
+.icon-xs,
+%icon-xs {
+    font-size: $icon-size-xs;
+}
+
+.icon-sm,
+%icon-sm {
+    font-size: $icon-size-sm;
+}
+
+.icon-lg,
+%icon-lg {
+    font-size: $icon-size-lg;
+}
+
+.icon-xl,
+%icon-xl {
+    font-size: $icon-size-xl;
+}
+
+
+@font-face {
+    font-family: 'sunweb-icons';
+    font-style: normal;
+    font-weight: normal;
+
+    src: url('#{$path-fonts}sunweb-icons.eot?-nhl0i');
+    src: url('#{$path-fonts}sunweb-icons.eot?#iefix-nhl0i') format('embedded-opentype'),
+        url('#{$path-fonts}sunweb-icons.ttf?-nhl0i') format('truetype'),
+        url('#{$path-fonts}sunweb-icons.woff?-nhl0i') format('woff'),
+        url('#{$path-fonts}sunweb-icons.svg?-nhl0i#sunweb-icons') format('svg');
+}
+
+.icon {
+    font-family: 'sunweb-icons';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-transform: none;
+
+    speak: none;
+    // Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-airplane:before {
+    content: '\e600';
+}
+.icon-cars:before {
+    content: '\e601';
+}
+.icon-family:before {
+    content: '\e602';
+}
+.icon-mountains:before {
+    content: '\e603';
+}
+.icon-sun:before {
+    content: '\e604';
+}
+.icon-calendar:before {
+    content: '\e605';
+}
+.icon-calendar-overview:before {
+    content: '\e606';
+}
+.icon-clock:before {
+    content: '\e607';
+}
+.icon-info:before {
+    content: '\e610';
+}
+.icon-angle-left:before {
+    content: '\e608';
+}
+.icon-angle-right:before {
+    content: '\e609';
+}
+.icon-facebook:before {
+    content: '\e60a';
+}
+.icon-facebook-square:before {
+    content: '\e60b';
+}
+.icon-google-plus:before {
+    content: '\e60c';
+}
+.icon-google-plus-square:before {
+    content: '\e60d';
+}
+.icon-twitter:before {
+    content: '\e60e';
+}
+.icon-twitter-square:before {
+    content: '\e60f';
+}
