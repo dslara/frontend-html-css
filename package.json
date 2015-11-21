@@ -17,9 +17,14 @@
   },
   "homepage": "https://github.com/dslara/frontend-html-css",
   "devDependencies": {
+    "del": "^2.1.0",
     "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-csso": "^1.0.1",
     "gulp-inject": "^3.0.0",
     "gulp-load-plugins": "^1.1.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sass": "^2.1.0",
     "wiredep": "^2.2.2"
   }
 }

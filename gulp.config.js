@@ -8,6 +8,13 @@ module.exports = function() {
 
         /* Files Paths */
 
+        /* SASS Compiler */
+
+        css: public + 'style/css/',
+        sass: public + 'style/scss/*.scss',
+
+        /* Inject Files */
+
         public: public,
         index: public + 'index.html',
         js: public + 'script/**/*.js',
