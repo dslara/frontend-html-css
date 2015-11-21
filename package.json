@@ -1,0 +1,19 @@
+{
+    "name": "frontend-html-css",
+    "version": "1.0.0",
+    "description": "FRONTEND - LAYOUT A PAGE",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dslara/frontend-html-css.git"
+    },
+    "author": "Daniel Salvador",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dslara/frontend-html-css/issues"
+    },
+    "homepage": "https://github.com/dslara/frontend-html-css"
+}
