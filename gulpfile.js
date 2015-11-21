@@ -47,3 +47,21 @@ gulp.task('inject', ['wiredep', 'style'], function(){
         .pipe($.inject(gulp.src(config.css + '*.css'), {ignorePath: '/public/', addRootSlash: false}))
         .pipe(gulp.dest(config.public));
 });
+
+/* Server and Live Reload */
+
+gulp.task('connect', function() {
+    $.connect.server({
+        livereload: true,
+        root: config.public
+    });
+});
+
+gulp.task('livereload', function() {
+    return gulp
+        .src(config.public)
+        .pipe($.watch([config.css + '*.css', config.js, config.index]))
+        .pipe($.connect.reload());
+});
+
+gulp.task('server', ['connect', 'livereload', 'watch']);
