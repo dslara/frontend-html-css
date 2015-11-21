@@ -5,19 +5,37 @@
 *
 */
 
-/* Fonts Path */
+// Colors
+$sun-yellow: #fbeb2e;
+$sun-red: #eb192d;
+$white: #ffffff;
+$black: #2d2d2d;
+$light-gray: #eeeeee;
+$dark-yellow: #f99500;
+$blue: #20a0de;
 
+// Default Colors
+$primary-color: $black;
+$action-color: $sun-red;
+
+
+// Fonts Path
 $path-fonts: '../../fonts/' !default;
 
-/* Icon Sizes */
-
+// Icon Sizes
 $icon-size-xs: 50% !default;
 $icon-size-sm: 75% !default;
 $icon-size-lg: 150% !default;
 $icon-size-xl: 200% !default;
 
-/* Font Familys */
+// Typography
+$primary-font-family: Verdana, Helvetica, Roboto, Arial, sans-serif;
+$secondary-font-family: "Sansa Pro";
+$secondary-font-family-bold: "Sansa Pro Bold";
 
-$base-font-family: Verdana, Helvetica, Roboto, Arial, sans-serif;
+// Font Sizes
+$base-font-size: 12px;
 
+// Line Height
+$base-line-height: 2;
 

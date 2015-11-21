@@ -1,0 +1,35 @@
+/**
+* SETUP
+* --------------------------------------------------
+*
+*
+*/
+
+html,
+body {
+    height: 100%;
+    font-size: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: $light-gray;
+    font-family: $primary-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $primary-color;
+}
+
+img, picture {
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+}
