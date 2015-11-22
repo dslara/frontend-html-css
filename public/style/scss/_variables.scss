@@ -18,7 +18,6 @@ $blue: #20a0de;
 $primary-color: $black;
 $action-color: $sun-red;
 
-
 // Fonts Path
 $path-fonts: '../../fonts/' !default;
 
@@ -41,3 +40,6 @@ $base-font-size: 12px;
 // Line Height
 $base-line-height: 2;
 
+// Grid Variables
+$column-count: 12;
+$gutter: 0.5em;

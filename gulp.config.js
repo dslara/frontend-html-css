@@ -21,7 +21,7 @@ module.exports = function() {
 
         bower: {
             json: require('./bower.json'),
-            directory: './bower_components/',
+            directory: './bower_components/'
         },
 
     };
@@ -29,7 +29,7 @@ module.exports = function() {
     config.wiredepOptions = function () {
         var options = {
             bowerJson: config.bower.json,
-            directory: config.bower.directory,
+            directory: config.bower.directory
         };
         return options;
     };

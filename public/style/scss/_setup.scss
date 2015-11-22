@@ -33,3 +33,151 @@ img, picture {
     height: auto;
     -ms-interpolation-mode: bicubic;
 }
+
+/* Panel */
+
+.panel {
+    background-color: $white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(215, 215, 215);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+.top-header {
+    padding-top: 25px;
+}
+
+.top-header > * {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.top-header-logo {
+    position: relative;
+    width: 239px;
+    margin-left: 20px;
+    img {
+        position: absolute;
+        bottom: -60px;
+        z-index: 1;
+    }
+}
+
+.top-header-title {
+}
+.top-header-links {
+    float: right;
+    figure {
+
+    }
+}
+
+.decorators > * {
+    height: 3px;
+}
+
+.decorator-red {
+    background-color: $sun-red;
+    margin-bottom: 4px;
+}
+
+.decorator-yellow {
+    background-color: $dark-yellow;
+    margin-bottom: 2px;
+}
+
+.decorator-blue {
+    background-color: $blue;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-title {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+.carousel-decorator {
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+    img {
+        width: 1400px;
+        height: 112px;
+    }
+}
+
+.carousel-article {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.carousel-article > * {
+    margin-bottom: 34px;
+}
+
+.footer-container {
+    margin-top: 120px;
+}
+
+
+footer {
+    background-image: url("../../img/sunweb-wave.svg");
+    background-repeat: repeat-x;
+    background-position: center 10px;
+    background-size: 2000px;
+}
+
+.footer-background {
+    background-color: $sun-yellow;
+}
+
+.top-footer {
+    display: flex;
+}
+
+.top-footer-logo {
+    flex: 1;
+    img {
+        flex: 1;
+        width: 170px;
+        height: auto;
+    }
+}
+
+.top-footer-title {
+    flex: 2.5;
+}
+
+.footer-links {
+    padding-top: 25px;
+    margin-top: 45px;
+    padding-bottom: 20px;
+}
+
+
+.footer-links-container {
+    display: flex;
+}
+
+.footer-links-item-left {
+    margin-right: 124px;
+}
+
+.footer-links-item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 55px;
+    margin-bottom: 35px;
+    h5 {
+        text-transform: uppercase;
+        margin-bottom: 25px;
+    }
+}
+

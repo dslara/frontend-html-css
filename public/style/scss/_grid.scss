@@ -5,9 +5,32 @@
 *
 */
 
-// Main Container
+@mixin breakpoint($point) {
+    @if $point == desktop {
+        @media (min-width: 70em) {
+            @content;
+        }
+    }
+    @else if $point == tablet {
+        @media (min-width: 50em) {
+            @content;
+        }
+    }
+    @else if $point == mobile {
+        @media (max-width: 37.5em)  {
+            @content;
+        }
+    }
+}
 
-.container {
+// Containers
+
+.container-lg {
     max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-md {
+    max-width: 900px;
     margin: 0 auto;
 }
