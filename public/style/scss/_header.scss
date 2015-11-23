@@ -1,0 +1,83 @@
+/**
+* HEADER
+* --------------------------------------------------
+*
+*
+*/
+
+.top-header {
+    padding-top: 54px;
+    text-align: left;
+    @include breakpoint(mobile){
+        padding-top: 25px;
+    }
+}
+
+.top-header-title {
+    display: none;
+    h2 {
+        @include title-font-family;
+    }
+}
+
+.top-header-logos {
+    display: none;
+    float: right;
+    img {
+        height: 34px;
+        width: auto;
+        margin-right: 10px;
+    }
+}
+
+.top-header > * {
+    @include breakpoint(tablet){
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+.top-header-logo {
+    position: relative;
+    @include breakpoint(mobile){
+        width: 239px;
+        margin-left: 40px;
+    }
+    img {
+        position: absolute;
+        width: 255px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: -55px;
+        z-index: 1;
+    }
+}
+
+.decorators > * {
+    height: 6px;
+    @include breakpoint(mobile){
+        height: 3px;
+    }
+}
+
+.decorator-red {
+    background-color: $sun-red;
+    margin-bottom: 7px;
+    @include breakpoint(mobile){
+        margin-bottom: 4px;
+    }
+}
+
+.decorator-yellow {
+    background-color: $dark-yellow;
+    margin-bottom: 4px;
+    @include breakpoint(mobile){
+        margin-bottom: 2px;
+    }
+}
+
+.decorator-blue {
+    background-color: $blue;
+}

@@ -1,0 +1,107 @@
+/**
+* FOOTER
+* --------------------------------------------------
+*
+*
+*/
+
+footer {
+    background-image: url("../../img/sunweb-wave.svg");
+    background-repeat: repeat-x;
+    background-position: center 12px;
+    background-size: 2000px;
+}
+
+.footer-container {
+    margin-top: 120px;
+}
+
+.footer-background {
+    background-color: $sun-yellow;
+}
+
+.top-footer {
+    display: flex;
+}
+
+.top-footer-logo {
+    flex: 1;
+    img {
+        flex: 1;
+        width: 170px;
+        height: auto;
+    }
+}
+
+.top-footer-title {
+    flex: 2.5;
+    h2 {
+        @include title-font-family;
+        font-size: 22px;
+    }
+}
+
+.footer-nav {
+    padding-top: 25px;
+    margin-top: 45px;
+    padding-bottom: 85px;
+    a {
+        text-decoration: none;
+        color: $black;
+        transition: color 0.2s ease-in;
+        &:focus, &:hover {
+            color: lighten($black, 25%);
+        }
+    }
+}
+
+.footer-nav-container {
+    @include breakpoint(mobile){
+        display: flex;
+    }
+}
+
+.footer-nav-item-left {
+    text-align: center;
+    @include breakpoint(mobile){
+        flex: 0 0 auto;
+        margin-right: 124px;
+    }
+}
+
+.footer-nav-item-right {
+    display: none;
+    @include breakpoint(mobile){
+        flex: 1;
+        display: block;
+    }
+    h3 {
+        text-transform: uppercase;
+    }
+}
+
+.footer-nav-item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 55px;
+    margin-bottom: 30px;
+    h3 {
+        margin-bottom: 15px;
+    }
+}
+
+.footer-contact {
+    display: flex;
+}
+
+.footer-contact-social {
+    flex: 0 0 auto;
+    margin-right: 100px;
+    h3 {
+        margin-bottom: 10px;
+    }
+}
+
+.footer-contact-tel {
+    flex: 1;
+}

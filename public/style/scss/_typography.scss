@@ -5,6 +5,19 @@
 *
 */
 
+@mixin carousel-font-family {
+    font-family: "Pacifico";
+    font-size: 22px;
+    line-height: 1.1;
+    @include breakpoint(mobile){
+        font-size: 70px;
+    }
+}
+
+@mixin title-font-family {
+    font-family: "Fords Folly";
+    font-size: 24px;
+}
 
 h1 {
     font-family: $secondary-font-family-bold;
@@ -18,18 +31,7 @@ h2 {
 }
 
 h3 {
-    font-family: $header-font-family;
-    font-size: 24px;
-    color: $action-color;
-}
-
-h4 {
-    font-family: $tv-font-family;
-    font-size: 70px;
-    line-height: 1.1;
-}
-
-h5 {
-    font-family: $secondary-font-family;
-    font-size: 16px;
+    font-family: $secondary-font-family-bold;
+    font-size: 12px;
+    color: $black;
 }

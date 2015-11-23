@@ -1,0 +1,58 @@
+/**
+* CAROUSEL
+* --------------------------------------------------
+*
+*
+*/
+
+.carousel {
+    position: relative;
+}
+
+.carousel-title {
+    position: absolute;
+    top: 70px;
+    left: 94px;
+    h1 {
+        @include carousel-font-family;
+        text-shadow: 0px 0px 28px rgba(255, 255, 255, 1);
+        @include breakpoint(mobile){
+
+        }
+    }
+}
+
+.carousel-image {
+    @include breakpoint(mobile){
+
+    }
+}
+
+.carousel-decorator {
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+    img {
+        width: 1400px;
+        height: 112px;
+    }
+}
+
+.carousel-article {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.carousel-article {
+    h1 {
+        margin-bottom: 8px;
+    }
+    h2 {
+        margin-bottom: 22px;
+    }
+    p {
+        margin-bottom: 30px;
+    }
+
+}

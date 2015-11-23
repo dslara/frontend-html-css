@@ -31,15 +31,10 @@ $icon-size-xl: 200% !default;
 $primary-font-family: Verdana, Helvetica, Roboto, Arial, sans-serif;
 $secondary-font-family: "Sansa Pro";
 $secondary-font-family-bold: "Sansa Pro Bold";
-$header-font-family: "Fords Folly";
-$tv-font-family: "Pacifico";
 
 // Font Sizes
-$base-font-size: 12px;
+$desktop-font-size: 12px;
+$mobile-font-size: 18px;
 
 // Line Height
 $base-line-height: 2;
-
-// Grid Variables
-$column-count: 12;
-$gutter: 0.5em;

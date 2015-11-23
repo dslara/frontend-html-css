@@ -1,5 +1,5 @@
 /**
-* GRID
+* MEDIA QUERIES
 * --------------------------------------------------
 *
 *
@@ -7,30 +7,18 @@
 
 @mixin breakpoint($point) {
     @if $point == desktop {
-        @media (min-width: 70em) {
+        @media (min-width: 1400px) {
             @content;
         }
     }
     @else if $point == tablet {
-        @media (min-width: 50em) {
+        @media (min-width: 1023px) {
             @content;
         }
     }
     @else if $point == mobile {
-        @media (max-width: 37.5em)  {
+        @media (min-width: 480px)  {
             @content;
         }
     }
-}
-
-// Containers
-
-.container-lg {
-    max-width: 1400px;
-    margin: 0 auto;
-}
-
-.container-md {
-    max-width: 900px;
-    margin: 0 auto;
 }
