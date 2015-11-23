@@ -8,8 +8,11 @@
 footer {
     background-image: url("../../img/sunweb-wave.svg");
     background-repeat: repeat-x;
-    background-position: center 12px;
+    background-position: center -30px;
     background-size: 2000px;
+    @include breakpoint(mobile){
+        background-position: center 12px;
+    }
 }
 
 .footer-container {
@@ -22,6 +25,10 @@ footer {
 
 .top-footer {
     display: flex;
+    flex-direction: column;
+    @include breakpoint(mobile){
+        flex-direction: row;
+    }
 }
 
 .top-footer-logo {
@@ -35,16 +42,29 @@ footer {
 
 .top-footer-title {
     flex: 2.5;
+    text-align: center;
+    @include breakpoint(mobile){
+        text-align: left;
+    }
     h2 {
         @include title-font-family;
-        font-size: 22px;
+        font-size: 30px;
+        line-height: normal;
+        @include breakpoint(mobile){
+            font-size: 22px;
+        }
     }
 }
 
 .footer-nav {
-    padding-top: 25px;
-    margin-top: 45px;
+    padding-top: 120px;
+    margin-top: -90px;
     padding-bottom: 85px;
+    @include breakpoint(mobile){
+        padding-top: 25px;
+        margin-top: 45px;
+        padding-bottom: 85px;
+    }
     a {
         text-decoration: none;
         color: $black;
@@ -105,3 +125,4 @@ footer {
 .footer-contact-tel {
     flex: 1;
 }
+

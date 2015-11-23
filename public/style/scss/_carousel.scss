@@ -11,14 +11,18 @@
 
 .carousel-title {
     position: absolute;
-    top: 70px;
-    left: 94px;
+    width: 100%;
+    text-align: center;
+    top: 80%;
+    z-index: 3;
+    @include breakpoint(mobile){
+        text-align: left;
+        top: 70px;
+        left: 94px;
+    }
     h1 {
         @include carousel-font-family;
         text-shadow: 0px 0px 28px rgba(255, 255, 255, 1);
-        @include breakpoint(mobile){
-
-        }
     }
 }
 
@@ -28,18 +32,40 @@
     }
 }
 
-.carousel-decorator {
+.carousel-decorator-sun {
     position: absolute;
     width: 100%;
-    bottom: -50px;
+    bottom: -5px;
+    @include breakpoint(mobile){
+        bottom: -45px;
+    }
     img {
         width: 1400px;
-        height: 112px;
+        height: auto;
     }
 }
 
+.carousel-decorator-win {
+    position: absolute;
+    width: 100%;
+    bottom: -5px;
+    @include breakpoint(mobile){
+        bottom: -30px;
+    }
+    img {
+        width: 1400px;
+        height: auto;
+    }
+}
+
+.clearfix-el {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
 .carousel-article {
-    margin-top: 80px;
+    margin-top: 20px;
     margin-bottom: 60px;
     text-align: center;
 }

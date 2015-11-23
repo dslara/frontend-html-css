@@ -9,6 +9,7 @@
   "license": "MIT",
   "homepage": "https://github.com/dslara/frontend-html-css",
   "dependencies": {
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "Swiper": "swiper#~3.2.5"
   }
 }

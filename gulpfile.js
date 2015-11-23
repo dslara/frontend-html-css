@@ -53,7 +53,12 @@ gulp.task('inject', ['wiredep', 'style'], function(){
 gulp.task('connect', function() {
     $.connect.server({
         livereload: true,
-        root: config.public
+        root: config.public,
+        port: 3000,
+        livereload: true,
+        middleware: function(connect) {
+            return [connect().use('/bower_components', connect.static('bower_components'))];
+        }
     });
 });
 

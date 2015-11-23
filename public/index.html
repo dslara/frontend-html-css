@@ -9,8 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link href="app/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="apple-touch-icon.png" rel="apple-touch-icon">
     <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/Swiper/dist/css/swiper.css" />
     <!-- endbower -->
     <!-- inject:css -->
     <link rel="stylesheet" href="style/css/main.css">
@@ -23,19 +24,19 @@
         <!-- Header -->
 
         <header class="top-header">
-            <figure class="top-header-logo">
+            <div class="top-header-logo">
                 <img src="img/sunweb-logo.svg" alt="Sunweb Logo">
-            </figure>
+            </div>
             <div class="top-header-title">
                 <h2>Zoveel goede zorgen, dat verwacht je niet voor zo’n prijs!</h2>
             </div>
             <div class="top-header-logos">
-                <figure>
+                <div>
                     <img src="img/sunweb-trusted-logo-01.png" alt="Sunweb Trusted Logo 01">
                     <img src="img/sunweb-trusted-logo-02.png" alt="Sunweb Trusted Logo 02">
                     <img src="img/sunweb-trusted-logo-03.png" alt="Sunweb Trusted Logo 03">
                     <img src="img/sunweb-trusted-logo-04.png" alt="Sunweb Trusted Logo 04">
-                </figure>
+                </div>
             </div>
         </header>
         <div class="decorators">
@@ -47,16 +48,33 @@
         <!-- Carrousel -->
 
         <section class="carousel">
-            <div class="carousel-title">
-                <h1 class="hide-m">De zonnigste<br>&nbsp;bestemmingen</h1>
-                <h1 class="show-m">De zonnigste bestemmingen</h1>
+
+            <div class="carousel-image">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-hash="slide1">
+                            <div class="carousel-title">
+                                <h1 class="hide-m">De zonnigste<br>&nbsp;bestemmingen</h1>
+                                <h1 class="show-m">De zonnigste bestemmingen</h1>
+                            </div>
+                            <img src="img/heading-bg-sun-lg.jpg" alt="">
+                            <div class="carousel-decorator-sun">
+                                <img src="img/summer-wave-lg.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-hash="slide2">
+                            <img src="img/heading-bg-win-lg.jpg" alt="">
+                            <div class="carousel-decorator-win">
+                                <img src="img/winter-wave-lg.svg" alt="">
+                            </div>
+                            <div class="clearfix-el"></div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
-            <figure class="carousel-image">
-                <img src="img/heading-bg.jpg" alt="Medes Islands">
-            </figure>
-            <div class="carousel-decorator">
-                <img src="img/summer-wave.svg" alt="Summer Wave">
-            </div>
+
         </section>
 
         <!-- Carousel Article -->
@@ -86,9 +104,9 @@
         <!-- Top Footer -->
 
         <section class="container-md top-footer">
-            <figure class="top-footer-logo">
+            <div class="top-footer-logo">
                 <img src="img/sunweb-logo.svg" alt="Sunweb Logo">
-            </figure>
+            </div>
             <div class="top-footer-title">
                 <h2>Zoveel goede zorgen, dat verwacht je niet voor zo’n prijs!</h2>
             </div>
@@ -163,6 +181,7 @@
 
     <!-- bower:js -->
     <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/Swiper/dist/js/swiper.js"></script>
     <!-- endbower -->
     <!-- inject:js -->
     <script src="script/custom.js"></script>

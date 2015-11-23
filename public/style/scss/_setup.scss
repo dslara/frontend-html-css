@@ -26,6 +26,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: $primary-color;
+    @include breakpoint(mobile){
+        font-size: $tablet-font-size;
+    }
     @include breakpoint(tablet){
         font-size: $desktop-font-size;
     }
