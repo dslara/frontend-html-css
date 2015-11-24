@@ -10,6 +10,9 @@
   "homepage": "https://github.com/dslara/frontend-html-css",
   "dependencies": {
     "jquery": "~2.1.4",
-    "Swiper": "swiper#~3.2.5"
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "angular-responsive-images": "~0.1.0",
+    "angular-swiper": "~0.3.0"
   }
 }
