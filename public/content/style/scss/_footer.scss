@@ -8,7 +8,7 @@
 footer {
     background-image: url("../../img/sunweb-wave.svg");
     background-repeat: repeat-x;
-    background-position: center -30px;
+    background-position: center -40px;
     background-size: 2000px;
     @include breakpoint(mobile){
         background-position: center 12px;
@@ -48,7 +48,7 @@ footer {
     }
     h2 {
         @include title-font-family;
-        font-size: 30px;
+        font-size: 20px;
         line-height: normal;
         @include breakpoint(mobile){
             font-size: 22px;
@@ -57,8 +57,8 @@ footer {
 }
 
 .footer-nav {
-    padding-top: 120px;
-    margin-top: -90px;
+    padding-top: 80px;
+    margin-top: -20px;
     padding-bottom: 85px;
     @include breakpoint(mobile){
         padding-top: 25px;
@@ -85,6 +85,7 @@ footer {
     text-align: center;
     @include breakpoint(mobile){
         flex: 0 0 auto;
+        text-align: left;
         margin-right: 124px;
     }
 }

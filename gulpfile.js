@@ -65,7 +65,7 @@ gulp.task('connect', function() {
 gulp.task('livereload', function() {
     return gulp
         .src(config.public)
-        .pipe($.watch([config.css + '*.css', config.js, config.index]))
+        .pipe($.watch([config.css + '*.css', config.jsReload, config.index, config.public + 'app/**/*.html']))
         .pipe($.connect.reload());
 });
 

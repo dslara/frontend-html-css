@@ -10,14 +10,19 @@ module.exports = function() {
 
         /* SASS Compiler */
 
-        css: public + 'style/css/',
-        sass: public + 'style/scss/*.scss',
+        css: public + 'content/style/css/',
+        sass: public + 'content/style/scss/*.scss',
 
         /* Inject Files */
 
         public: public,
         index: public + 'index.html',
-        js: public + 'script/**/*.js',
+        js: [
+            public + 'app/**/*.js',
+            public + 'content/script/**/*.js'
+        ],
+
+        jsReload: public + '**/**/**/*.js',
 
         bower: {
             json: require('./bower.json'),
