@@ -4,13 +4,13 @@ Demo [SunWeb](http://death.run/sunweb)
 
 ## How to use
 
-1. Run to install development dependencies:
+Run to install development dependencies:
 
 ```sh
 $ sudo npm install
 ```
 
-2. Run to install bower dependencies:
+Run to install bower dependencies:
 
 ```sh
 $ bower install
@@ -18,7 +18,7 @@ $ bower install
 
 _All dependencies will be automatically injected into the index.html_
 
-3. Run to start the server and live reload:
+Run to start the server and live reload:
 
 ```sh
 $ gulp server
