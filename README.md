@@ -46,7 +46,3 @@ To run the SASS compiler without the server:
 ```sh
 $ gulp watch
 ```
-
-### Have fun!
-
-Daniel Salvador
