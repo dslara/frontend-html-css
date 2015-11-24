@@ -10,7 +10,7 @@ Demo [SunWeb](http://death.run/sunweb)
 $ sudo npm install
 ```
 
-1. Run to install bower dependencies:
+2. Run to install bower dependencies:
 
 ```sh
 $ bower install
@@ -18,7 +18,7 @@ $ bower install
 
 _All dependencies will be automatically injected into the index.html_
 
-2. Run to start the server and live reload:
+3. Run to start the server and live reload:
 
 ```sh
 $ gulp server
